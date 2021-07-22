@@ -157,7 +157,7 @@ img {
   text-align: center;
 }
 
-.hero > .hero-title {
+.hero-box > .hero-title {
   color: var(--text-color);
   font-weight: 900;
   font-size: 44px;
@@ -167,6 +167,27 @@ img {
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 30px;
+}
+
+.order {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  border: none;
+ }
+
+ .hero-box {
+  margin-bottom: 200px;
+  margin-top: 200px;
+  outline: 1px solid tomato
 }
 
 .list {
@@ -283,19 +304,6 @@ img {
   margin-bottom: 50px;
 }
 
-.order {
-  background-color: var(--accent-color);
-  color: var(--text-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  cursor: pointer;
-  border-radius: 4px;
-  padding: 10px 32px;
-  min-width: 200px;
-  text-align: center;
-}
 
 .section {
   padding-top: 94px;
